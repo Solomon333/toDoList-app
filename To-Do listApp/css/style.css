@@ -83,7 +83,6 @@ form button:hover{
     cursor: pointer;  
 }
 .delBtn{
-    /* color: #696969; */
     color: rgb(242, 109, 109);
     background-color:  #ffffff;
     cursor: pointer;
@@ -106,7 +105,6 @@ form button:hover{
 }
  .drop{
     transform:translate(2rem);
-    /* transform: transform()(4rem) ; */
     opacity:  0;
 } 
 #clock{
@@ -133,103 +131,5 @@ form button:hover{
 
 
 
-
-/* ==================================================== */
-/* h1{
-    color: #FFA07A;
-    letter-spacing: 2px;
-    font-size: 40px;
-    
-    
-}
-span {
-    color: #F08080;
-    letter-spacing: 1px;
-    font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-input {
-    background-color: #FFEBCD;
-    
-    width: 500px;
-    margin-top: 20px;
-    padding: 10px 10px;
-    overflow: hidden;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 8px;
-    border: none;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-p {
-    color: #FFA07A;
-    font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-button {
-    background-color:#DB7093;
-    font-size: 18px;
-    border: 1px solid black;
-    border-radius: 6px;
-    padding: 5px 10px ;
-    margin: 2px ;
-}
-
-.todo-li {
-    background-color: rgb(252, 216, 170);
-    color: black;
-    list-style: none;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    
-    margin: 1.0rem;
-}
-.todo-li, li {
-    
-    border: 1px solid #F0FFFF;
-    border-radius: 4px;
-    font-size: 20px;
-    font-family: 'Architects Daughter', cursive;
-    
-    
-}
-.fa {
-    color:black;
-}
-
-.coBtn {
-    color: rgb(150, 253, 169);
-   
-    
-}
-.delBtn{
-    color: rgb(242, 109, 109);
-}    
-
-
-
-
-
-    
-/* } =======================================================*/ 
-/* #todos-li{
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-} 
-li{
-    list-style: none;
-    margin: 10px;
-}
-.todo-li {
-    
-    
-    width: 30%;
-    list-style: none;
-    background-color: white;
-    margin: 15px;
- */
 
 
