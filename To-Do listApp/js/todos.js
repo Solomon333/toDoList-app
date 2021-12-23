@@ -2,16 +2,12 @@ const inputLi = document.querySelector(".input")
 const addBtn = document.querySelector(".add-btn")
 const todoLi = document.querySelector(".todul-li")
 
-
-
-//  const options = {weekday : "long", month : "short", day : "numeric"};
 const today = new Date()  
 let text = today.toLocaleDateString()
 let time = today.toLocaleTimeString() 
 //setDate.innerHTML = today.toLocalDateString( options);
 document.getElementById("date").innerHTML = text
 document.getElementById("clock").innerHTML = time
-
 
 addBtn.addEventListener("click", addTo)
 todoLi.addEventListener("click", deleteList)
@@ -81,23 +77,7 @@ function saveLocalTodos(todo) {
 
 
 
-// function getTodos(){
-//     let todos
-//     if(localStorage,getItem('todos') === null){
-//         todos = []
-//     }else{
-//         todos = JSON.parse(localStorage.getItem('todos'))
-//     }
-//     todos.forEach(function(todo) {
-//         const toDiv = document.createElement('div')
-//         toDiv.classList.add('todo')
 
-//         const newList = document.createElement('li')
-//          newList.innerText = todo
-//         newList.classList.add('todo-il')
-//         toDiv.appendChild(newList)
-//     })
-// }
 
 
 
@@ -107,23 +87,10 @@ function saveLocalTodos(todo) {
 
 
 
-    
-//     addTo(todos)
-//   }
-  
 
-// const saveListLocalStorage = () => {
-//     localStorage.setItem("doList", todoLi.innerHTML)
-// }
 
-// addBtn.addEventListener('click', saveListLocalStorage)
 
-// const savedTasks = localStorage.getItem("doList")
 
-// if(savedTasks){
-//     todoLi.innerText = savedTasks
-// }
-// localStorage.clear()
 
 
 
@@ -131,108 +98,6 @@ function saveLocalTodos(todo) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//  button.addEventListener("click", function(){
-
-//     for(let i=0; i< itemList.length; i++){  
-//         if(inputLi === "") {
-//             alert("You must write a task!")
-//         }else{     
-//         itemList.push(inputLi.value)
-//         inputLi.value = ""
-//      ul.innerHTML = "<li>" + itemList[i] + "</li>"
-//     let li = document.createElement("li")
-//     li.textContent = myList[i]
-//     todos.append(li)
-//     } 
-// }
-// }) 
-
-
-
-
-
-
-
-
-
-
-// function newList(){
-//     const li = document.createElement('li')
-//     const inputLi = document.getElementById("input").value
-//     let list = document.createTextNode(inputLi) 
-//    console.log(list)
-//     li.append(list)
-//     if(inputLi === ""){
-//         alert("You must write a task!")
-//     } else{
-//         document.getElementsById("todos-li").append(li)
-//     }
-// } 
-
-
-
-
-// addBtn.addEventListener("click", function(){
-//     itemList.push(inputLi.value)
-//     inputLi.value = ""
-  
-// })
- 
-  
-
-
-
-
-   
-    // for(let i=0; i< itemList.length; i++){  
-    //     let li = document.createElement("li")
-    //     li.textContent = itemList
-    //     ul.append(li)  
-    // itemList.push(inputLi.value)
-    // inputLi.value = ""
-    // console.log("just clicked")
-//     }
-// })
-
- 
-
-
-
-
-
-
-
-
-
-
-//  addBtn.addEventListener("click", function(){
-//     myList.push(inputList.value)
-   
-// })
-// function pencil(){
-//     for(let i=0; i< myList.length; i++){
-//     // todos.innerHTML = "<li>" + myList[i] + "</li>"
-//     let li = document.createElement("li")
-//     li.textContent = myList[i]
-//     todos.append(li)
-// }
-// }
 
 
 
