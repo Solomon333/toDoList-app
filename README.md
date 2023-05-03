@@ -6,6 +6,6 @@ its the first project that i did.
 
 -  mark green list that are done
 -  use the garbage icon to delete it.
-also hava a date and time on top.
+-  include date and time on top.
 
 - built using html css amd javascript,
