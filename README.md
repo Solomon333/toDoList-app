@@ -1,6 +1,6 @@
 ToDo list app
 
-its the first project that i did.
+ my first project:
 
 -  add list by clicking the pen icon.
 
