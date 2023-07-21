@@ -1,6 +1,6 @@
 ToDoList app:
 
- my first project : 
+First project : 
 
 -  Add list by clicking the pen icon.
 
