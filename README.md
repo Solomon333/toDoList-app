@@ -9,4 +9,4 @@ toDoList App -
 
 -  Include date and time on top.
 
--  Built using html css amd javascript
+-  Built using html css amd javascript.
