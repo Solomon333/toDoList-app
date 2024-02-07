@@ -5,8 +5,8 @@ toDoList App -
 
 -  Mark green list that are done.
 
-  Use the garbage icon to delete it.
+Use the garbage icon to delete it.
 
 -  Include date and time on top.
 
--  Built using html css amd javascript.
+Built using html css amd javascript.
