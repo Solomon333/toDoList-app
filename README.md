@@ -1,6 +1,6 @@
 toDoList App 
 
-Add list by clicking the pen icon.
+Add list by clicking the pen icon
 
 Mark green list that are done.
 
