@@ -1,4 +1,4 @@
-toDoList App --
+toDoList App 
 
 - Add list by clicking the pen icon 
   
